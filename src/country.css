@@ -20,6 +20,11 @@ header {
     border-top-right-radius: 10px;
 }
 
+
+.collapse:not(.show) {
+    display: block;
+}
+
 .country-photo {
     position: absolute;
     width: 115px;
